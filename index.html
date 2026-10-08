@@ -1,10 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Página Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camelina Menu</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+.category{
+    margin-top:30px;
+}
+
+.category h2{
+    background:#2e7d32;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
+
+.item{
+    background:white;
+    margin:10px 0;
+    padding:15px;
+    border-radius:5px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.2);
+}
+
+.price{
+    color:#2e7d32;
+    font-weight:bold;
+}
+</style>
 </head>
+
 <body>
-    <h1>Hola Mundo</h1>
-    <p>Mi página de GitHub Pages ya funciona.</p>
+
+<header>
+    <h1>Camelina Menu</h1>
+    <p>Seleccione una opción</p>
+</header>
+
+<div class="container">
+
+    <div class="category">
+        <h2>Desayunos</h2>
+
+        <div class="item">
+            <h3>Huevos al gusto</h3>
+            <p>Incluye frijoles y tortillas.</p>
+            <span class="price">$120</span>
+        </div>
+
+        <div class="item">
+            <h3>Chilaquiles</h3>
+            <p>Verdes o rojos.</p>
+            <span class="price">$140</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Bebidas</h2>
+
+        <div class="item">
+            <h3>Café</h3>
+            <span class="price">$35</span>
+        </div>
+
+        <div class="item">
+            <h3>Jugo Natural</h3>
+            <span class="price">$45</span>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
